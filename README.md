@@ -77,6 +77,9 @@ This project involved gathering data from multiple sources: scraping a real esta
     bcn_real_state_queries.sql
     SQL_schema.png
 /src
+    predictions.py
+    scrape.py
+    sql.py
 .gitignore
 main.py
 README.md
