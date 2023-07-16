@@ -52,7 +52,22 @@ This project involved gathering data from multiple sources: scraping a real esta
         habitaclia_bcn_all_data_combined_20230623_with_districts.csv
         idealista_euribor_monthly_until_june_2023.csv
 /images
+    /Icons
+        92255284-156f1180-eea0-11ea-9d2d-be8262670e8c.png
+        Pandas_logo.png
+        Sql_data_base_with_logo.png
+        Tableau_Logo.png
+        habitaclia.png
+        idealista.jpg
+        ironhack.png
+        numpy.jpg
+        opendatabcn.png
+        pngaaa.com-619282.png
+        'pngegg (1).png'
+        pngegg.png
+        streamlit-logo-primary-colormark-darktext.png
     BCN_from_above.jpeg
+    BCN_ML_App_recording_1080p.mp4
     elle-barcelona.jpg
     FltUsL8X0AAJc5H.jpeg
     Logo_2-removebg-preview-ps.png
@@ -82,7 +97,9 @@ This project involved gathering data from multiple sources: scraping a real esta
     sql.py
 .gitignore
 main.py
+Presentation.pdf
 README.md
+requirements.txt
 ```
 ***
 ### 2. Overall Process
@@ -104,6 +121,9 @@ A comprehensive dashboard was developed using Tableau, providing visual represen
 
 5. App Deployment:
 To make the findings and predictions easily accessible, an app was created using Streamlit. The app allows users to interact with the machine learning models, providing inputs to determine the current market price of m2 for each neighborhood. Additionally, users can directly access the dashboard to visualize the gathered information.
+
+![Alt text](images/Final_Project_Workflow.png)
+
 ***
 ### 3. Data
 ***
@@ -140,15 +160,28 @@ The dashboard created with Tableau alows users to analyze the information about 
 ***
 In the last stage of the project, a Streamlit app has been created to allow users to interact with all the findings and predictions easily. This app has 3 different sections, the main page, the user can find the machine learning model that allows inputs from different features to provide a prediction of the price/m2 for the neightborhood selected.Additionally, users can directly access the dashboard to visualize the gathered information. Finally, there is a section about the company and the developer of the app and all the analysis made in the project.
 
-![Alt text](images/streamlit_app.jpg)
+
+[![Check to watch the screen recording of the App](images/streamlit_app.jpg)](images/BCN_ML_App_recording_1080p.mp4)
 
 ***
 ### 6. Links and Resources
 ***
 - Data sources: 
-1. Brazilian E-Commerce Public Dataset by Olist (Kaggle): https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+1. Habitaclia (Barcelona Current Market Property Pricing): https://www.habitaclia.com/viviendas-barcelona.htm
+2. Ayuntamiento de Barcelona (Hisorical Property Pricing): https://ajuntament.barcelona.cat/estadistica/angles/Estadistiques_per_temes/Habitatge_i_mercat_immobiliari/Mercat_immobiliari/Preu_oferta_habitatge_segona_ma/evo/t2mab.htm
+3. Idealista (Historical Euribor Rate): https://www.idealista.com/news/euribor/historico-diario/
+4. Demographic data from Barcelona: https://opendata-ajuntament.barcelona.cat/data/ca/dataset/20170706-districtes-barris
 
+- Tableau Dashboard for the project:
+    - https://public.tableau.com/app/profile/mariano.ciarrocca/viz/Final_Project_Ironhack_BCN_Real_Estate_Analytics_2023/BCN_Story
 
 - Other useful links:
-    - https://powerbi.microsoft.com/es-es/desktop/
-    - https://www.kaggle.com/
+    - https://blog.streamlit.io/introducing-new-layout-options-for-streamlit/
+    - https://docs.streamlit.io/library/api-reference/text/st.markdown
+    - https://docs.streamlit.io/library/api-reference/text/st.markdown
+    - https://docs.streamlit.io/library/api-reference/text/st.divider
+    - https://whimsical.com/
+    - https://www.logoai.com/make
+    - https://github.com/blackary/st_pages
+    - https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/
+    - https://imgbb.com/
