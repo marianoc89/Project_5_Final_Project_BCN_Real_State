@@ -161,7 +161,7 @@ The dashboard created with Tableau alows users to analyze the information about 
 In the last stage of the project, a Streamlit app has been created to allow users to interact with all the findings and predictions easily. This app has 3 different sections, the main page, the user can find the machine learning model that allows inputs from different features to provide a prediction of the price/m2 for the neightborhood selected.Additionally, users can directly access the dashboard to visualize the gathered information. Finally, there is a section about the company and the developer of the app and all the analysis made in the project.
 
 
-[![Check to watch the screen recording of the App](images/streamlit_app.jpg)](images/BCN_ML_App_recording_1080p.mp4)
+![GIf of Streamlit App Recording](images/BCN_ML_App_recording_1080p.gif)
 
 ***
 ### 6. Links and Resources
